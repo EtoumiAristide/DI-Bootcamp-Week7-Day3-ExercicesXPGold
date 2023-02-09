@@ -18,6 +18,7 @@ public class Main {
         listChaine.add("klklj");
         List<String> result = new ListFilter().search(listChaine);
         result.forEach(data-> System.out.println(data));
+
         //Exercice 2
         List<Integer> stringList = new ArrayList<>();
         stringList.add(3);
